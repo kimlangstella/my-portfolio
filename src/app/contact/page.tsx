@@ -33,7 +33,7 @@ const page = () => {
             <label htmlFor='message' className='block text-sm text-gray-200 mb-2'>Message</label>
             <textarea
               id='message'
-              rows='4'
+              rows={4}
               className='bg-white text-black border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent w-full p-2'
             ></textarea>
           </div>
